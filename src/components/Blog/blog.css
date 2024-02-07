@@ -1,0 +1,65 @@
+.blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog .text {
+  padding: 40px 30px;
+}
+
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+
+.blog h1:hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 12px;
+}
+
+.blog span:nth-last-child(1) label {
+  color: #1eb2a6;
+}
+
+.blog p {
+  color: grey;
+}
+
+.blog {
+  text-align: center;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog {
+    margin-top: 25px;
+  }
+  .blog-page .margin {
+    margin-top: 48vh;
+}
+.blog .text {
+  padding: 20px 20px;
+}
+.blog h1 {
+  line-height: 28px;
+  font-size: 25px;
+}
+.blog p {
+  margin: 0 -1px;
+}
+}

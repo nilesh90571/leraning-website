@@ -1,0 +1,108 @@
+.price .items {
+  padding: 25px;
+  text-align: center;
+  margin: 0px 8px;
+}
+.price.container {
+  display: flex;
+}
+
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+
+.price p {
+  color: grey;
+  margin: 20px 0;
+}
+
+.hprice {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/*--------------faq-------------*/
+.faq .container {
+  max-width: 70%;
+  border-radius: 5px;
+}
+
+.faq .box {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.faq button {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.faq h2 {
+  font-weight: 500;
+}
+
+.faq p {
+  padding: 20px;
+}
+
+.faq .accordion:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.price-page #heading {
+  padding: 80px 0;
+}
+.faq .box {
+  width: 100%;
+}
+/*--------------faq-------------*/
+
+@media screen and (max-width: 768px) {
+  .price .items {
+    margin-bottom: 12px;
+  }
+
+  .price.container {
+    flex-wrap: wrap;
+  }
+
+  .hprice {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .price-page .margin {
+    margin-top: 49vh;
+}
+.price-page #heading {
+  padding: 30px 0;
+}
+.faq h2 {
+  font-size: 18px;
+  text-align: left;
+}
+.faq .container {
+  max-width: 100%;
+}
+.price p {
+  margin: 12px 0;
+  font-size: 17px;
+  line-height: 22px;
+}
+.price .items {
+  padding: 11px;
+  margin: 0px 0px;
+}
+}

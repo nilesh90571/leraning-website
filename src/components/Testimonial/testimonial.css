@@ -1,0 +1,67 @@
+.testimonal .items {
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  .testimonal .img {
+    position: relative;
+    margin-right: 20px;
+}
+.testimonal .box{
+  width: 100%;
+  align-items: center;
+}
+  .testimonal img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .testimonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+  .testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .testimonal .name span {
+    color: #1eb2a6;
+    font-size: 14px;
+  }
+  .testimonal p {
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+  }
+  .testimonal .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+  }
+  .testimonal .items:hover span,
+  .testimonal .items:hover p {
+    color: #fff;
+  }
+  .testimonal .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+  }
+  .testimonal {
+    text-align: center;
+    margin-top: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    .testimonal img {
+      width: 80px;
+      height: 80px;
+      margin-top: 12px;
+  }
+  .home-page .testimonal {
+    margin-top: 10px;
+}
+
+
+  }
